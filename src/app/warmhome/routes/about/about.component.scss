@@ -1,0 +1,35 @@
+.welcome {
+  width: 100%;
+  height: calc(100vh - 30px);
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 40px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  .logo {
+    color: rgba(26, 0, 244, 0.2);
+    position: absolute;
+    right: -130px;
+  }
+
+  .large {
+    font-size: 510px;
+    transition: color 0.5s ease-in-out;
+  }
+  .medium {
+    transition: color 0.5s ease-in-out;
+    font-size: 410px;
+  }
+  .small {
+    transition: color 0.5s ease-in-out;
+    font-size: 310px;
+  }
+
+
+
+  .text {
+    z-index: 1;
+  }
+}

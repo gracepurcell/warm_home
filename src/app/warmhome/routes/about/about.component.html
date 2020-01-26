@@ -1,0 +1,20 @@
+
+<div class="welcome">
+  <i class="large logo icon icon-qualitylogo"></i>
+  <i class="medium logo icon icon-qualitylogo"></i>
+  <i class="small logo icon icon-qualitylogo"></i>
+  <div class="text">{{ model.home.welcome }}</div>
+</div>
+
+<div class="container">
+
+  <div>
+    {{ model.about.intro }}
+  </div>
+
+  <app-card [title]="model.about.service.why.title" [content]="model.about.service.why.answer"></app-card>
+  <app-card [title]="model.about.service.who.title" [content]="model.about.service.who.answer"></app-card>
+  <app-card [title]="model.about.service.appointment.title" [content]="model.about.service.appointment.answer"></app-card>
+
+
+</div>
